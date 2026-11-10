@@ -16,8 +16,7 @@ const CartItem = () => {
             </div>
 
             {company.products.map((product) => (
-                <div key={product.id}>
-                    <div  className="grid grid-cols-[1fr_13fr] gap-3.5 items-center mt-2">
+                <div key={product.id}>                    <div  className="grid grid-cols-[1fr_13fr] gap-3.5 items-center mt-2">
                         <div className="bg-[#C4CED3] w-25 h-25 flex justify-center items-center rounded-2xl">
                             <Image
                             src={product.image}
